@@ -107,16 +107,16 @@ export default function App(props)
     ]);
     
     useEffect(() => {
-        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist.herokuapp.com/api/v1/movies").then((response) => {
+        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/movies").then((response) => {
                 setmovieList(response.data.data.movies)
         })
-        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist.herokuapp.com/api/v1/anime").then((response) => {
+        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/anime").then((response) => {
                 setanimeList(response.data.data.anime)
         })
-        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist.herokuapp.com/api/v1/tv").then((response) => {
+        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/tv").then((response) => {
                 settvList(response.data.data.tv)
         })
-        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist.herokuapp.com/api/v1/manga").then((response) => {
+        Axios.get("https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/manga").then((response) => {
                 setmangaList(response.data.data.manga)
         })
         

@@ -256,7 +256,7 @@ function ElementDisplay(props){
   }
 
   useEffect(() => {
-    Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist2.herokuapp.com/api/v1/anime/${props.match.params.id}`).then((response) => {
+    Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/anime/${props.match.params.id}`).then((response) => {
           
           setrandom(response.data.data.anime)
           document.title = response.data.data.anime.name + " (Anime) - Cipher-Pol"

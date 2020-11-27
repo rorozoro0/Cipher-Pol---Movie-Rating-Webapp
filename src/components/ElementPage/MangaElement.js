@@ -256,7 +256,7 @@ function ElementDisplay(props){
   }
 
   useEffect(() => {
-    Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist.herokuapp.com/api/v1/manga/${props.match.params.id}`).then((response) => {
+    Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/manga/${props.match.params.id}`).then((response) => {
           setrandom(response.data.data.manga)
           document.title = response.data.data.manga.name + " (Manga) - Cipher-Pol"
     })

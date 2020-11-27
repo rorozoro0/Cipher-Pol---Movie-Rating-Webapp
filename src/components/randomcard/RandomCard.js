@@ -190,7 +190,7 @@ function Card()
   
   useEffect(() => {
       x = categories[Math.floor(Math.random() * categories.length)]
-    Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist2.herokuapp.com/api/v1/${x}/random`).then((response) => {
+    Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/${x}/random`).then((response) => {
             setrandom(response.data.data.random)
     })  
   }, [])

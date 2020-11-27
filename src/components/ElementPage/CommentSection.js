@@ -13,7 +13,7 @@ let theme={
       main:"#2B2B29"
     }
   }
-  
+
 const StyledContainer1 = styled.div`
   max-width: 85%;
   width: 100%;
@@ -249,7 +249,7 @@ export default function CommentSection(props){
       })
       if(!Number.isNaN(avg))
       {
-        Axios.patch(`https://cors-anywhere.herokuapp.com/https://rorolist.herokuapp.com/api/v1/${props.category}/${props.id}`,{
+        Axios.patch(`https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/${props.category}/${props.id}`,{
         rating: {
           avgrating :  avg,
           nviews: views
@@ -262,7 +262,7 @@ export default function CommentSection(props){
     }
 
     useEffect(() =>{
-        Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist.herokuapp.com/api/v1/${props.category}/${props.id}`).then((response) => {
+        Axios.get(`https://cors-anywhere.herokuapp.com/https://rorolist1.herokuapp.com/api/v1/${props.category}/${props.id}`).then((response) => {
             
           setComments(response.data.data[props.data])
     })
