@@ -82,28 +82,28 @@ export default function App(props)
      
       
     var [movieList, setmovieList] = useState([
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}}
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}}
     ]);
     var [animeList, setanimeList] = useState([
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}}
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}}
     ]);
     var [tvList, settvList] = useState([
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}}
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}}
     ]);
     var [mangaList, setmangaList] = useState([
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}},
-        {name: "loding...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loding: true},rating:{ nviews: "loding...",  avgrating: "loding..."}}
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}},
+        {name: "Loading...", img: "https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg",genre: {Loading: true},rating:{ nviews: "Loading...",  avgrating: "Loading..."}}
     ]);
     
     useEffect(() => {

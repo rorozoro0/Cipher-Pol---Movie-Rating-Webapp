@@ -144,19 +144,19 @@ function Card()
   var x ;
   var [randomdata, setrandom] = useState({
     rating:{
-      nviews: "loding...",
-      avgrating: "loding..."
+      nviews: "Loading...",
+      avgrating: "Loading..."
     },
 
-  name: "Loding",
+  name: "Loading",
   img:["https://miro.medium.com/max/880/0*H3jZONKqRuAAeHnG.jpg"],
-  language: "loding...",
-  director: "loding...",
+  language: "Loading...",
+  director: "Loading...",
   // releasedOn: "2005-06-16",
   genre: {
-    Loding: true
+    Loading: true
   },
-  plot: "loding...",
+  plot: "Loading...",
     comments: []
   })
   const onLikesClick = () => {
