@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Cipher-pol ( The Entertainment App )
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed : https://cipher-pol.herokuapp.com/
 
 ## Available Scripts
 
